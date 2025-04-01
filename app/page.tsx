@@ -128,7 +128,7 @@ export default function Home() {
 
       <main>
        <h1 className=' text-3xl' >Lets join a room!</h1>
-       <input onChange={(e) => setRoomName(e.target.value)} value={roomName} className=' bg-white' />
+       <input onChange={(e) => setRoomName(e.target.value)} value={roomName} className=' bg-white text-black' />
        <button onClick={joinRoom} type="button" className=' bg-blue-500' >Join Room</button>
       </main>
     </div>
